@@ -525,10 +525,8 @@ h6 {
 }
 
 section, article, .section, .article, .paper {
-  line-height: 2em;
   word-wrap: break-word;
   word-break: normal;
-  line-height: 2em;
 }
 
 hr {
@@ -574,15 +572,16 @@ blockquote {
   border-radius: 4px;
   -webkit-box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.05);
-  border-left: 6px solid #49AEE6;
+  border-left: 6px solid #00bbf9;
 }
 
 input:not([type=submit]):not([type=reset]):not([type=radio]):not([type=checkbox]),
 textarea, select {
-  border: 1px solid #000;
+  border: 1px solid #495057;
   background: #FFF;
   color: #000000;
-  border-radius: 1rem;
+  border-radius: 0.50rem;
+  width: 100%;
   margin: 7px 0;
   height: 45px;
   padding: 0 10px;
@@ -595,6 +594,13 @@ textarea, select {
   -khtml-user-select: text;
   -moz-user-select: text;
   -ms-user-select: text;
+}
+
+input:not([type=submit]):not([type=reset]):not([type=radio]):not([type=checkbox]):focus,
+textarea:focus, select:focus {
+  border-color: #00bbf9;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 input[type=checkbox], input[type=radio] {
@@ -616,7 +622,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 input[type=checkbox]:checked, input[type=radio]:checked {
-  background: #367bf0;
+  background-color: #00bbf9;
 }
 
 label:hover > input[type=checkbox]:checked, label:hover > input[type=radio]:checked {
@@ -625,7 +631,7 @@ label:hover > input[type=checkbox]:checked, label:hover > input[type=radio]:chec
 }
 
 label:hover > input[type=checkbox]:not(:checked), label:hover > input[type=radio]:not(:checked) {
-  background: #b8174c;
+  background-color: #9B5DE5;
 }
 
 input[type=checkbox] {
@@ -727,8 +733,8 @@ select {
   width: 96px;
   display: inline-block;
   overflow: hidden;
-  background: #b8174c;
-  border: 3px solid #811035;
+  border: 3px solid #1a1d20;
+  background-color: #495057;
   border-radius: 23px;
   -webkit-transition: border-color 0.2s;
   transition: border-color 0.2s;
@@ -784,15 +790,13 @@ select {
 }
 
 .onoffswitch span span::before {
-  content: attr(data-on);
   padding-left: 20px;
-  background: #367bf0;
+  background: #00bbf9;
 }
 
 .onoffswitch span span::after {
-  content: attr(data-off);
   padding-right: 20px;
-  background: #b8174c;
+  background: #495057;
   text-align: right;
 }
 
@@ -807,8 +811,8 @@ select {
 }
 
 .onoffswitch input:checked + span {
-  background: #367bf0;
-  border-color: #2656a8;
+  background: #00bbf9;
+  border-color: #006e93;
 }
 
 button,
@@ -850,7 +854,7 @@ input[type=reset],
   line-height: 56px;
   text-align: center;
   color: #FFF;
-  background: #8c42ab;
+  background: #9B5DE5;
   font-weight: 100;
   display: block;
   -webkit-transition: text-shadow .2s .2s, background .2s .2s, color .2s .2s, -webkit-transform .2s, -webkit-box-shadow .2s;
@@ -901,18 +905,18 @@ input[type=reset]:active, input[type=reset].active,
 }
 
 .blue-button, input.blue-button {
-  background: #367bf0;
-  border-color: #2656a8;
+  background: #00bbf9;
+  border-color: #005b7a;
 }
 
-.red-button, input.red-button {
-  background: #b8174c;
-  border-color: #811035;
+.purple-button, input.purple-button {
+  background: #9B5DE5;
+  border-color: #5b1ba8;
 }
 
 .green-button, input.green-button {
-  background: #19a187;
-  border-color: #12715f;
+  background: #14f594;
+  border-color: #06844d;
 }
 
 .paper {

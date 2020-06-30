@@ -387,6 +387,14 @@ template {
 /* Lina Styles 
    Here starts the magic! */
 
+// Colors
+$azul: #00bbf9;
+$morado: #9B5DE5;
+$rosa: #f15bb5;
+$amarillo: #fee440;
+$verde-claro: #00f5d4;
+$verde: #14f594;
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -525,10 +533,8 @@ h6 {
 }
 
 section, article, .section, .article, .paper {
-    line-height: 2em;
     word-wrap: break-word;
     word-break: normal;
-    line-height: 2em;
 }
 
 hr {
@@ -570,16 +576,17 @@ blockquote {
     padding: 5px 10px;
     border-radius: 4px;
     box-shadow: 0 5px 30px 0 rgba(0, 0, 0, .05);
-    border-left: 6px solid #49AEE6;
+    border-left: 6px solid $azul;
 }
 
 input:not([type=submit]):not([type=reset]):not([type=radio]):not([type=checkbox]),
 textarea, select {
-    border: 1px solid #000;
+    border: 1px solid #495057; 
     background: #FFF;
     color: #000000;
     // border-radius: 3px;
-    border-radius: 1rem; 
+    border-radius: 0.50rem;
+    width: 100%;
     margin: 7px 0; 
     height: 45px;
     padding: 0 10px;
@@ -592,6 +599,10 @@ textarea, select {
     -khtml-user-select: text;
     -moz-user-select: text;
     -ms-user-select: text;
+    &:focus {
+        border-color: $azul;
+        box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    }
 }
 
 input[type=checkbox], input[type=radio] {
@@ -609,7 +620,8 @@ input[type=checkbox], input[type=radio] {
 }
 
 input[type=checkbox]:checked, input[type=radio]:checked {
-    background: #367bf0;
+    background-color: $azul;
+
 }
 
 label:hover > input[type=checkbox]:checked, label:hover > input[type=radio]:checked {
@@ -617,7 +629,8 @@ label:hover > input[type=checkbox]:checked, label:hover > input[type=radio]:chec
 }
 
 label:hover > input[type=checkbox]:not(:checked), label:hover > input[type=radio]:not(:checked) {
-    background: #b8174c;
+    // background: #b8174c;
+    background-color: $morado;
 }
 
 input[type=checkbox] {
@@ -709,8 +722,8 @@ select {
     width: 96px;
     display: inline-block;
     overflow: hidden;
-    background: #b8174c;
-    border: 3px solid #811035;
+    border: 3px solid darken($color: #495057, $amount:20%);
+    background-color: #495057;
     border-radius: 23px;
     transition: border-color 0.2s;
 }
@@ -754,15 +767,13 @@ select {
 }
 
 .onoffswitch span span::before {
-    content: attr(data-on);
     padding-left: 20px;
-    background: #367bf0;
+    background: $azul;
 }
 
 .onoffswitch span span::after {
-    content: attr(data-off);
     padding-right: 20px;
-    background: #b8174c;
+    background: #495057;
     text-align: right;
 }
 
@@ -775,8 +786,8 @@ select {
 }
 
 .onoffswitch input:checked + span {
-    background: #367bf0;
-    border-color: #2656a8;
+    background: $azul;
+    border-color: darken($color: $azul, $amount: 20%);
 }
 
 button,
@@ -814,7 +825,7 @@ input[type=reset],
     line-height: 56px;
     text-align: center;
     color: #FFF;
-    background: #8c42ab;
+    background: $morado;
     font-weight: 100;
     display: block;
     transition: text-shadow .2s .2s, background .2s .2s, transform .2s, color .2s .2s, box-shadow .2s;
@@ -850,18 +861,18 @@ input[type=reset]:active, input[type=reset].active,
 .rounded-button:active, .rounded-button.active { box-shadow: 0 0 10px rgba(0, 0, 0, .6); }
 
 .blue-button, input.blue-button {
-    background: #367bf0;
-    border-color: #2656a8;
+    background: $azul;
+    border-color: darken($color: $azul, $amount: 25%);
 }
 
-.red-button, input.red-button {
-    background: #b8174c;
-    border-color: #811035;
+.purple-button, input.purple-button {
+    background: $morado;
+    border-color: darken($color: $morado, $amount: 25%);
 }
 
 .green-button, input.green-button {
-    background: #19a187;
-    border-color: #12715f;
+    background: $verde;
+    border-color: darken($color: $verde, $amount: 25%);
 }
 
 .paper {
