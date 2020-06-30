@@ -382,6 +382,10 @@ img {
   max-width: 100%;
 }
 
+.txt-center {
+  text-align: center;
+}
+
 .container {
   width: 90%;
   max-width: 120rem;
@@ -395,47 +399,47 @@ img {
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  opacity: 1;
+  opacity: 0.4;
   -webkit-transition: opacity .2s;
   transition: opacity .2s;
   color: inherit;
 }
 
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  opacity: 1;
+  opacity: 0.4;
   -webkit-transition: opacity .2s;
   transition: opacity .2s;
   color: inherit;
 }
 
 input::-ms-input-placeholder, textarea::-ms-input-placeholder {
-  opacity: 1;
+  opacity: 0.4;
   -webkit-transition: opacity .2s;
   transition: opacity .2s;
   color: inherit;
 }
 
 input::placeholder, textarea::placeholder {
-  opacity: 1;
+  opacity: 0.4;
   -webkit-transition: opacity .2s;
   transition: opacity .2s;
   color: inherit;
 }
 
 input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
-  opacity: .2;
+  opacity: 0.2;
 }
 
 input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
-  opacity: .2;
+  opacity: 0.2;
 }
 
 input:focus::-ms-input-placeholder, textarea:focus::-ms-input-placeholder {
-  opacity: .2;
+  opacity: 0.2;
 }
 
 input:focus::placeholder, textarea:focus::placeholder {
-  opacity: .2;
+  opacity: 0.2;
 }
 
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
@@ -571,15 +575,15 @@ blockquote {
 
 input:not([type=submit]):not([type=reset]):not([type=radio]):not([type=checkbox]),
 textarea, select {
-  border: 2px solid #000;
+  border: 1px solid #000;
   background: #FFF;
-  color: #000;
-  border-radius: 3px;
+  color: #000000;
+  border-radius: 1rem;
   margin: 7px 0;
   height: 45px;
   padding: 0 10px;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   cursor: text;
   user-select: text;
   -webkit-touch-callout: text;
