@@ -1,7 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/PrismJS/prism@1.20.0/themes/prism-tomorrow.min.css");
 body {
   font-family: 'Roboto', sans-serif;
   color: #2b303a;
   font-size: 1.8rem;
   line-height: 1.6;
+}
+
+.site-header {
+  height: 100vh;
+  width: 100%;
+  background-image: url(bg-2.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.title-container {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 3.4rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.demos {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.demo {
+  text-align: center;
+}
+
+.demo a {
+  width: 50%;
+  margin: 0.5rem auto;
+}
+
+pre, code {
+  font-size: inherit;
 }

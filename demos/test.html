@@ -5,62 +5,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/lina.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
     <link rel="stylesheet" href="test.css">
     <title>Lina CSS</title>
 </head>
 
 <body>
+    <header class="site-header center-center-v">
+        <article class="title-container center-center-v">
+            <h1>Lina CSS</h1>
+            <p>A simple, useful and lightweight CSS library</p>
+            <a href="https://github.com/jesus1554/lina-css" class="blue-button"><i class="fab fa-github"></i> GitHub</a>
+        </article>
+    </header>
     <main class="container">
-        <h1 class="txt-center">Lina CSS</h1>
+        <h1 class="txt-center">Installation</h1>
+        <h3>CDN</h3>
+        <code>https://cdn.jsdelivr.net/gh/jesus1554/lina-css@0.1/lina.min.css</code>
+        <h3>Source Code</h3>
+        <code>https://cdn.jsdelivr.net/gh/jesus1554/lina-css@0.1/lina.css</code>
         <hr>
-
-        <label>
-            <input type="checkbox" name="my-checkbox" checked> Select me
-        </label>
-        <label>
-            <input type="checkbox" name="my-checkbox"> Select me
-        </label>
-        
-        <label>
-            <input type="radio" name="my-input-radio" checked> Select me
-        </label>
-        <label>
-            <input type="radio" name="my-input-radio"> Select me
-        </label>
-        <label class="onoffswitch">
-            <input type="checkbox" name="my-switch">
-                <span data-on="yes" data-off="no"> <span></span> </span>
-            </label>
-            <button class="blue-button">save</button>
-            <button class="purple-button">save</button>
-            <button class="green-button">save</button>
-            <input type="text" name="" id="" placeholder="Text goes here">
-            <select>
-                <option>Level 1</option>
-                <option>Level 2</option>
-            </select>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Write your history..."></textarea>
-            <button class="rounded-button">+</button>
-            <button type="submit">Enter!</button>
-        </main>
-        <section class="container">
-            <div class="">
-                <h3>Example</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi nesciunt eveniet dicta? Eligendi commodi animi sapiente quam quisquam necessitatibus eum!</p>
+    </main>
+    <section class="container txt-justify">
+        <h1 class="txt-center">About</h1>
+        <p>Lina CSS is born from a need that all web developers have: to make web pages quickly. That is why I started
+            working on Lina CSS, in fact, I relied on a library that I really liked (<a href="https://drasite.com/flat-remix-css">Flat Remix CSS</a>). This library is
+            simple, with nice components and easy to implement. Unlike other libraries, Lina CSS focuses on being as
+            practical and useful as possible, with easy-to-remember components and intuitive options.</p>
+        <p>
+            Lina includes commonly used web components to save the most amount of time when developing, and it also
+            includes <a href="https://necolas.github.io/normalize.css/">Normalize</a> so that your websites can be seen well in any browser.</p>
+        <p>
+            This project was born in the development of another project, so Lina CSS will be updated quite often because
+            I still don't feel like it is completely finished.
+        </p>
+        <hr>
+    </section>
+    <section class="container">
+        <h1 class="txt-center">Demos</h1>
+        <div class="center-center-h demos">
+            <div class="demo">
+                <p>Awesome Product Website</p>
+                <a href="/awesome-product-demo.html" class="blue-button">Visit</a>
             </div>
-            <blockquote>
-                Im an important phrase
-            </blockquote>
-            <code>
-                body {
-                    font-family: 'Roboto', sans-serif;
-                    color: #2b303a;
-                    font-size: 1.8rem;
-                    line-height: 1.6;
-                }
-                
-            </code>
-        </section>
+            <div class="demo">
+                <p>Interesting Blog Post</p>
+                <a href="/blog-post-demo.html" class="blue-button">Visit</a>
+            </div>
+            <div class="demo">
+                <p>Beautiful Dashboard</p>
+                <a href="/dashboard-demo.html" class="blue-button">Visit</a>
+            </div>
+        </div>
+        <hr>
+        <h1 class="txt-center">Lina CSS Default Palette</h1>
+        <div class="txt-center">
+            <p style="color: #00bbf9;">#00bbf9</p>
+            <p style="color: #9B5DE5;">#9B5DE5</p>
+            <p style="color: #f15bb5;">#f15bb5</p>
+            <p style="color: #fee440;">#fee440</p>
+            <p style="color: #14f594;">#14f594</p>
+        </div>
+        <hr>
+    </section>
+    <section class="container">
+        <h1 class="txt-center">Usage</h1>
+        <div class="component">
+            <h3>Paper Class</h3>
+            <pre><code class="language-html">&lt;div class="paper">&NewLine; &lt;/div></code></pre>
+        </div>
+    </section>
 </body>
+<script src="https://cdn.jsdelivr.net/gh/PrismJS/prism@1.20.0/prism.min.js"></script>
 
 </html>
