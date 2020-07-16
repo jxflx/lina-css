@@ -29,12 +29,14 @@
     <section class="container txt-justify">
         <h1 class="txt-center">About</h1>
         <p>Lina CSS is born from a need that all web developers have: to make web pages quickly. That is why I started
-            working on Lina CSS, in fact, I relied on a library that I really liked (<a href="https://drasite.com/flat-remix-css">Flat Remix CSS</a>). This library is
+            working on Lina CSS, in fact, I relied on a library that I really liked (<a
+                href="https://drasite.com/flat-remix-css">Flat Remix CSS</a>). This library is
             simple, with nice components and easy to implement. Unlike other libraries, Lina CSS focuses on being as
             practical and useful as possible, with easy-to-remember components and intuitive options.</p>
         <p>
             Lina includes commonly used web components to save the most amount of time when developing, and it also
-            includes <a href="https://necolas.github.io/normalize.css/">Normalize</a> so that your websites can be seen well in any browser.</p>
+            includes <a href="https://necolas.github.io/normalize.css/">Normalize</a> so that your websites can be seen
+            well in any browser.</p>
         <p>
             This project was born in the development of another project, so Lina CSS will be updated quite often because
             I still don't feel like it is completely finished.
@@ -72,7 +74,87 @@
         <h1 class="txt-center">Usage</h1>
         <div class="component">
             <h3>Paper Class</h3>
+            <p>A nice box to put whatever you want!.</p>
             <pre><code class="language-html">&lt;div class="paper">&NewLine; &lt;/div></code></pre>
+            <div class="paper"></div>
+        </div>
+
+        <hr>
+
+        <div class="component">
+            <h3>Shadow</h3>
+            <p>Gives a box-shadow to any element.</p>
+            <pre><code class="language-html">&lt;div class="with-shadow"> &NewLine; &lt;/div></code></pre>
+            <div class="with-shadow">
+                <h2 class="txt-center">Hi!</h2>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="component">
+            <h3>Text Align</h3>
+            <p>Align your text as you wish.</p>
+            <pre><code class="language-html">&lt;p class="txt-center">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. &NewLine; Suspendisse potenti. Aenean sagittis nisi nec ligula iaculis porta.&lt;/p></code></pre>
+            <div class="paper txt-center">
+                <p class="container">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. Donec pretium volutpat
+                    blandit. Suspendisse potenti. Vivamus augue turpis, aliquet quis malesuada a, fermentum in magna.
+                    Nunc varius neque a sagittis pulvinar. Aenean elementum nulla bibendum lectus venenatis fermentum.
+                    Suspendisse potenti. Proin faucibus venenatis enim sed tempor. Sed varius lorem eros, ut auctor
+                    purus gravida quis. Mauris sodales sapien vitae arcu vestibulum, vel euismod nulla finibus. Proin
+                    tempor sapien eget arcu auctor mattis non vitae lorem. Duis id facilisis ipsum, non tristique enim.
+                    Donec eu aliquam libero. Aenean sagittis nisi nec ligula iaculis porta.</p>
+            </div>
+
+            <hr>
+
+            <pre><code class="language-html">&lt;p class="txt-left">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. &NewLine; Suspendisse potenti. Aenean sagittis nisi nec ligula iaculis porta.&lt;/p></code></pre>
+            <div class="paper txt-left">
+                <p class="container">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. Donec pretium volutpat
+                    blandit. Suspendisse potenti. Vivamus augue turpis, aliquet quis malesuada a, fermentum in magna.
+                    Nunc varius neque a sagittis pulvinar. Aenean elementum nulla bibendum lectus venenatis fermentum.
+                    Suspendisse potenti. Proin faucibus venenatis enim sed tempor. Sed varius lorem eros, ut auctor
+                    purus gravida quis. Mauris sodales sapien vitae arcu vestibulum, vel euismod nulla finibus. Proin
+                    tempor sapien eget arcu auctor mattis non vitae lorem. Duis id facilisis ipsum, non tristique enim.
+                    Donec eu aliquam libero. Aenean sagittis nisi nec ligula iaculis porta.</p>
+            </div>
+
+            <hr>
+
+            <pre><code class="language-html">&lt;p class="txt-right">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. &NewLine; Suspendisse potenti. Aenean sagittis nisi nec ligula iaculis porta.&lt;/p></code></pre>
+            <div class="paper txt-right">
+                <p class="container">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. Donec pretium volutpat
+                    blandit. Suspendisse potenti. Vivamus augue turpis, aliquet quis malesuada a, fermentum in magna.
+                    Nunc varius neque a sagittis pulvinar. Aenean elementum nulla bibendum lectus venenatis fermentum.
+                    Suspendisse potenti. Proin faucibus venenatis enim sed tempor. Sed varius lorem eros, ut auctor
+                    purus gravida quis. Mauris sodales sapien vitae arcu vestibulum, vel euismod nulla finibus. Proin
+                    tempor sapien eget arcu auctor mattis non vitae lorem. Duis id facilisis ipsum, non tristique enim.
+                    Donec eu aliquam libero. Aenean sagittis nisi nec ligula iaculis porta.</p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="component">
+            <h3>Container</h3>
+            <p>Gives a good margin to your elements.</p>
+            <pre><code class="language-html">&lt;div class="container"> &NewLine; &lt;!-- Put your element here -->&NewLine; &lt;/div></code></pre>
+        </div>
+
+        <hr>
+
+        <div class="component">
+            <h3>Center Elements</h3>
+            <p>This class can center elements horizontally and vertically using Flexbox.</p>
+            <small>Horizontal</small>
+            <pre><code class="language-html"> &lt;div class="center-center-h" </code></pre>
+            <div class="center-center-h">
+                <div class="square-example-1"></div>
+                <div class="square-example-2"></div>
+                <div class="square-example-3"></div>
+                <div class="square-example-4"></div>
+            </div>
         </div>
     </section>
 </body>
