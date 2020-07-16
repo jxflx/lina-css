@@ -36,7 +36,8 @@ body {
   margin: 0.5rem auto;
 }
 
-pre, code {
+pre,
+code {
   font-size: inherit;
 }
 
@@ -70,4 +71,24 @@ pre, code {
   width: 5rem;
   background-color: #f9b9df;
   margin: 1rem;
+}
+
+.meta-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.meta-input * {
+  height: 100%;
+}
+
+.meta-input .input-btn {
+  background-color: #e9ecef;
+  height: 45px;
+  margin: auto;
+  padding: 1rem;
 }

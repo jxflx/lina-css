@@ -27,15 +27,18 @@ body {
 .demos {
     justify-content: space-around;
 }
+
 .demo {
     text-align: center;
+
     a {
         width: 50%;
         margin: 0.5rem auto;
     }
 }
 
-pre, code {
+pre,
+code {
     font-size: inherit;
 }
 
@@ -53,5 +56,25 @@ $base-color: #f15bb5;
         width: 5rem;
         background-color: lighten($base-color, $i * 5%);
         margin: 1rem;
-    } 
+    }
+}
+
+// Experiment input-btn
+
+.meta-input {
+    display: flex;
+    align-items: center;
+
+    * {
+        height: 100%;
+    }
+
+    .input-btn {
+        background-color: #e9ecef;
+        height: 45px;
+
+        margin: auto;
+        padding: 1rem;
+
+    }
 }

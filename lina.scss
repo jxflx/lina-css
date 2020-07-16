@@ -577,7 +577,7 @@ code { background: #E6E6E6; }
 
 pre {
     background: white;
-    margin: 40px 0;
+    margin: 4rem 0;
 }
 
 code, code *, pre, pre * {
@@ -595,7 +595,7 @@ code, code *, pre, pre * {
 
 blockquote {
     background-color: #FFF;
-    padding: 5px 10px;
+    padding: 0.5rem 1rem;
     border-radius: 4px;
     box-shadow: 0 5px 30px 0 rgba(0, 0, 0, .05);
     border-left: 6px solid $azul;
@@ -609,10 +609,10 @@ textarea, select {
     // border-radius: 3px;
     border-radius: 0.50rem;
     width: 100%;
-    margin: 7px 0; 
-    height: 45px;
-    padding: 0 10px;
-    font-size: 14px;
+    margin: 0.7rem 0; 
+    height: 4.5rem;
+    padding: 0 1rem;
+    font-size: 1.5rem;
     font-weight: normal;
     cursor: text;
     user-select: text;
@@ -674,8 +674,8 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 textarea {
-    padding: 10px;
-    height: 200px;
+    padding: 1rem;
+    height: 20rem;
 }
 
 label.checktext {
@@ -712,7 +712,7 @@ label.checktext input:checked + span {
 
 select {
     cursor: pointer;
-    padding-right: 40px;
+    padding-right: 4rem;
     text-align-last: center;
     background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOSIgaGVpZ2h0PSIxOSIgeD0iMCIgeT0iMCIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMTkgMTkiIHhtbDpzcGFjZT0icHJlc2VydmUiPgogPGcgdHJhbnNmb3JtPSJtYXRyaXgoMC4wMzM5MjgzNiwwLDAsMC4wMzM5MjgzNiwtNi43ODU2NTUyLDEuNjk2NzE2M2UtNSkiPgogIDxwYXRoIGQ9Ik0gNDgwLDM0NC4xODEgMjY4Ljg2OSwxMzEuODg5IGMgLTE1Ljc1NiwtMTUuODU5IC00MS4zLC0xNS44NTkgLTU3LjA1NCwwIC0xNS43NTQsMTUuODU3IC0xNS43NTQsNDEuNTcgMCw1Ny40MzEgbCAyMzcuNjMyLDIzOC45MzcgYyA4LjM5NSw4LjQ1MSAxOS41NjIsMTIuMjU0IDMwLjU1MywxMS42OTggMTAuOTkzLDAuNTU2IDIyLjE1OSwtMy4yNDcgMzAuNTU1LC0xMS42OTggTCA3NDguMTg2LDE4OS4zMiBjIDE1Ljc1NiwtMTUuODYgMTUuNzU2LC00MS41NzEgMCwtNTcuNDMxIC0xNS43NTYsLTE1Ljg2IC00MS4yOTksLTE1Ljg1OSAtNTcuMDUxLDAgeiIvPgogPC9nPgo8L3N2Zz4K) no-repeat right 10px center #FFF;
 }
@@ -720,9 +720,9 @@ select {
 .onoffswitch {
     font-weight: bold;
     overflow: hidden;
-    height: 45px;
+    height: 4.5rem;
     padding: 0;
-    margin-top: 7px;
+    margin-top: 0.7rem;
     display: inline-block;
     transition: transform .2s;
 }
@@ -737,11 +737,11 @@ select {
 }
 
 .onoffswitch > span {
-    height: 45px;
+    height: 4.5rem;
     text-align: left;
     position: relative;
     padding: 0;
-    width: 96px;
+    width: 9.6rem;
     display: inline-block;
     overflow: hidden;
     border: 3px solid darken($color: #495057, $amount:20%);
@@ -757,10 +757,10 @@ select {
     left: 0;
     transform: translateX(0);
     transition: transform 0.2s;
-    height: 34px;
-    width: 34px;
+    height: 3.4rem;
+    width: 3.4rem;
     border-radius: 17px;
-    margin: 3px;
+    margin: 0.3rem;
     background: #FFF;
     box-shadow: 0 3px 1px rgba(0, 0, 0, .5);
 }
@@ -780,21 +780,21 @@ select {
     color: #FFF;
     float: left;
     width: 50%;
-    height: 40px;
-    font-size: 16px;
-    line-height: 40px;
+    height: 4.0rem;
+    font-size: 1.6rem;
+    line-height: 4rem;
     box-sizing: border-box;
     border-radius: 40px;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .5)
 }
 
 .onoffswitch span span::before {
-    padding-left: 20px;
+    padding-left: 2.0rem;
     background: $azul;
 }
 
 .onoffswitch span span::after {
-    padding-right: 20px;
+    padding-right: 2rem;
     background: #495057;
     text-align: right;
 }
@@ -821,15 +821,15 @@ input[type=reset],
     border-radius: 4px;
     font-weight: bold;
     color: #FFF !important;
-    margin-top: 7px;
+    margin-top: 0.7rem;
     text-align: center;
     cursor: pointer;
-    font-size: 16px;
-    height: 45px;
-    min-width: 120px;
+    font-size: 1.6rem;
+    height: 4.5rem;
+    min-width: 12rem;
     border: 3px solid #272a34;
     background: #737680;
-    line-height: 40px;
+    line-height: 4rem;
     display: block;
     transition: border .2s .2s, text-shadow .2s .2s, background .2s .2s, transform .2s, color .2s .2s, box-shadow .2s;
     text-transform: capitalize;
@@ -839,13 +839,13 @@ input[type=reset],
 .rounded-button {
     border: none;
     cursor: pointer;
-    height: 56px;
-    width: 56px;
+    height: 5.6rem;
+    width: 5.6rem;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
     text-shadow: 0 0 1px;
     border-radius: 100%;
-    font-size: 35px;
-    line-height: 56px;
+    font-size: 3.5rem;
+    line-height: 5.6rem;
     text-align: center;
     color: #FFF;
     background: $morado;
@@ -899,12 +899,11 @@ input[type=reset]:active, input[type=reset].active,
 }
 
 .paper {
-    font-size: 16px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     background-color: #FFF;
-    margin-top: 20px;
-    min-height: 100px;
+    margin-top: 2rem;
+    min-height: 10rem;
     color: #000;
 }
 
