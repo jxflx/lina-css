@@ -44,3 +44,14 @@ pre, code {
 }
 
 // Center-Center Section
+
+$base-color: #f15bb5;
+
+@for $i from 1 through 4 {
+    .square-example-#{$i} {
+        height: 5rem;
+        width: 5rem;
+        background-color: lighten($base-color, $i * 5%);
+        margin: 1rem;
+    } 
+}

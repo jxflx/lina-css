@@ -97,7 +97,8 @@
             <p>Align your text as you wish.</p>
             <pre><code class="language-html">&lt;p class="txt-center">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. &NewLine; Suspendisse potenti. Aenean sagittis nisi nec ligula iaculis porta.&lt;/p></code></pre>
             <div class="paper txt-center">
-                <p class="container">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. Donec pretium volutpat
+                <p class="container">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. Donec
+                    pretium volutpat
                     blandit. Suspendisse potenti. Vivamus augue turpis, aliquet quis malesuada a, fermentum in magna.
                     Nunc varius neque a sagittis pulvinar. Aenean elementum nulla bibendum lectus venenatis fermentum.
                     Suspendisse potenti. Proin faucibus venenatis enim sed tempor. Sed varius lorem eros, ut auctor
@@ -110,7 +111,8 @@
 
             <pre><code class="language-html">&lt;p class="txt-left">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. &NewLine; Suspendisse potenti. Aenean sagittis nisi nec ligula iaculis porta.&lt;/p></code></pre>
             <div class="paper txt-left">
-                <p class="container">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. Donec pretium volutpat
+                <p class="container">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. Donec
+                    pretium volutpat
                     blandit. Suspendisse potenti. Vivamus augue turpis, aliquet quis malesuada a, fermentum in magna.
                     Nunc varius neque a sagittis pulvinar. Aenean elementum nulla bibendum lectus venenatis fermentum.
                     Suspendisse potenti. Proin faucibus venenatis enim sed tempor. Sed varius lorem eros, ut auctor
@@ -123,7 +125,8 @@
 
             <pre><code class="language-html">&lt;p class="txt-right">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. &NewLine; Suspendisse potenti. Aenean sagittis nisi nec ligula iaculis porta.&lt;/p></code></pre>
             <div class="paper txt-right">
-                <p class="container">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. Donec pretium volutpat
+                <p class="container">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. Donec
+                    pretium volutpat
                     blandit. Suspendisse potenti. Vivamus augue turpis, aliquet quis malesuada a, fermentum in magna.
                     Nunc varius neque a sagittis pulvinar. Aenean elementum nulla bibendum lectus venenatis fermentum.
                     Suspendisse potenti. Proin faucibus venenatis enim sed tempor. Sed varius lorem eros, ut auctor
@@ -148,14 +151,48 @@
             <h3>Center Elements</h3>
             <p>This class can center elements horizontally and vertically using Flexbox.</p>
             <small>Horizontal</small>
-            <pre><code class="language-html"> &lt;div class="center-center-h" </code></pre>
-            <div class="center-center-h">
-                <div class="square-example-1"></div>
-                <div class="square-example-2"></div>
-                <div class="square-example-3"></div>
-                <div class="square-example-4"></div>
+            <pre><code class="language-html">&lt;div class="center-center-h"> &NewLine; &lt;!-- Put your elements here -->&NewLine; &lt;/div></code></pre>
+            <div class="paper">
+                <div class="center-center-h">
+                    <div class="square-example-1"></div>
+                    <div class="square-example-2"></div>
+                    <div class="square-example-3"></div>
+                    <div class="square-example-4"></div>
+                </div>
+            </div>
+
+            <hr>
+
+            <small>Vertical</small>
+            <pre><code class="language-html">&lt;div class="center-center-v"> &NewLine; &lt;!-- Put your elements here -->&NewLine; &lt;/div></code></pre>
+            <div class="paper">
+                <div class="center-center-v">
+                    <div class="square-example-1"></div>
+                    <div class="square-example-2"></div>
+                    <div class="square-example-3"></div>
+                    <div class="square-example-4"></div>
+                </div>
             </div>
         </div>
+
+        <hr>
+
+        <div class="component">
+            <h3>Unities</h3>
+            <p>Lina CSS uses REM as default unity, but don't worry, it's super easy! <b>1rem = 10px.</b> </p>
+            <p>Of course you can disable it putting in your body styles the font size that you want. But why Lina CSS
+                uses REM? For many reasons, most of them are <a target="_blank"
+                    href="https://www.youtube.com/watch?v=grMe8QREvA8">in
+                    this video.</a> </p>
+
+            <pre><code class="language-css">.square-example-1 {&NewLine;  height: 5rem;&NewLine;  width: 5rem;&NewLine;  background-color: #f372c0;&NewLine; }
+            </code></pre>
+
+            <div class="paper center-center-h">
+                <div class="square-example-1"></div>
+            </div>
+        </div>
+
     </section>
 </body>
 <script src="https://cdn.jsdelivr.net/gh/PrismJS/prism@1.20.0/prism.min.js"></script>

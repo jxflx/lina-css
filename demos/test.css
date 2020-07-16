@@ -43,3 +43,31 @@ pre, code {
 .component {
   margin: 2rem auto;
 }
+
+.square-example-1 {
+  height: 5rem;
+  width: 5rem;
+  background-color: #f372c0;
+  margin: 1rem;
+}
+
+.square-example-2 {
+  height: 5rem;
+  width: 5rem;
+  background-color: #f58aca;
+  margin: 1rem;
+}
+
+.square-example-3 {
+  height: 5rem;
+  width: 5rem;
+  background-color: #f7a1d5;
+  margin: 1rem;
+}
+
+.square-example-4 {
+  height: 5rem;
+  width: 5rem;
+  background-color: #f9b9df;
+  margin: 1rem;
+}
