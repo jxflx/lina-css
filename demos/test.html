@@ -20,16 +20,16 @@
     </header>
     <main class="container">
         <h1 class="txt-center">Installation</h1>
-        <h3>CDN</h3>
+        <h2>CDN</h2>
         <code>https://cdn.jsdelivr.net/gh/jesus1554/lina-css@0.1/lina.min.css</code>
-        <h3>Source Code</h3>
-        <code>https://cdn.jsdelivr.net/gh/jesus1554/lina-css@0.1/lina.css</code>
+        <h2>Source Code</h2>
+        <code>https://cdn.jsdelivr.net/gh/jesus1554/lina-css@0.1/lina.scss</code>
         <hr>
     </main>
     <section class="container txt-justify">
         <h1 class="txt-center">About</h1>
         <p>Lina CSS is born from a need that all web developers have: to make web pages quickly. That is why I started
-            working on Lina CSS, in fact, I relied on a library that I really liked (<a
+            working on Lina CSS, in fact, I based on a library that I really liked (<a
                 href="https://drasite.com/flat-remix-css">Flat Remix CSS</a>). This library is
             simple, with nice components and easy to implement. Unlike other libraries, Lina CSS focuses on being as
             practical and useful as possible, with easy-to-remember components and intuitive options.</p>
@@ -73,7 +73,7 @@
     <section class="container">
         <h1 class="txt-center">Usage</h1>
         <div class="component">
-            <h3>Paper Class</h3>
+            <h2>Paper Class</h2>
             <p>A nice box to put whatever you want!.</p>
             <pre><code class="language-html">&lt;div class="paper">&NewLine; &lt;/div></code></pre>
             <div class="paper"></div>
@@ -82,7 +82,7 @@
         <hr>
 
         <div class="component">
-            <h3>Shadow</h3>
+            <h2>Shadow</h2>
             <p>Gives a box-shadow to any element.</p>
             <pre><code class="language-html">&lt;div class="with-shadow"> &NewLine; &lt;/div></code></pre>
             <div class="with-shadow">
@@ -93,7 +93,7 @@
         <hr>
 
         <div class="component">
-            <h3>Text Align</h3>
+            <h2>Text Align</h2>
             <p>Align your text as you wish.</p>
             <pre><code class="language-html">&lt;p class="txt-center">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. &NewLine; Suspendisse potenti. Aenean sagittis nisi nec ligula iaculis porta.&lt;/p></code></pre>
             <div class="paper txt-center">
@@ -140,7 +140,26 @@
         <hr>
 
         <div class="component">
-            <h3>Container</h3>
+            <h2>Highlight</h2>
+            <p>Underline your ideas.</p>
+            <pre><code class="language-html">&lt;p>Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo.&NewLine; Suspendisse potenti. &lt;span class="highlight">Anean&lt;/span> sagittis nisi nec iaculis porta. &lt;/p></code></pre>
+            <div class="paper txt-justify">
+                <p class="container">Suspendisse risus tortor, feugiat a turpis ac, efficitur malesuada leo. Donec
+                    pretium volutpat
+                    blandit. Suspendisse potenti. Vivamus augue turpis, aliquet quis malesuada a, fermentum in magna.
+                    Nunc varius neque a sagittis pulvinar. <span class="highlight">Anean elementum</span> nulla bibendum
+                    lectus venenatis fermentum.
+                    Suspendisse potenti. Proin faucibus venenatis enim sed tempor. Sed varius lorem eros, ut auctor
+                    purus gravida quis. Mauris sodales sapien vitae arcu vestibulum, vel euismod nulla finibus. Proin
+                    tempor sapien eget arcu auctor mattis non vitae lorem. Duis id facilisis ipsum, non tristique enim.
+                    Donec eu aliquam libero. Aenean sagittis nisi nec ligula iaculis porta.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="component">
+            <h2>Container</h2>
             <p>Gives a good margin to your elements.</p>
             <pre><code class="language-html">&lt;div class="container"> &NewLine; &lt;!-- Put your element here -->&NewLine; &lt;/div></code></pre>
         </div>
@@ -148,7 +167,7 @@
         <hr>
 
         <div class="component">
-            <h3>Center Elements</h3>
+            <h2>Center Elements</h2>
             <p>This class can center elements horizontally and vertically using Flexbox.</p>
             <small>Horizontal</small>
             <pre><code class="language-html">&lt;div class="center-center-h"> &NewLine; &lt;!-- Put your elements here -->&NewLine; &lt;/div></code></pre>
@@ -178,7 +197,7 @@
         <hr>
 
         <div class="component">
-            <h3>Unities</h3>
+            <h2>Unities</h2>
             <p>Lina CSS uses REM as default unity, but don't worry, it's super easy! <b>1rem = 10px.</b> </p>
             <p>Of course you can disable it putting in your body styles the font size that you want. But why Lina CSS
                 uses REM? For many reasons, most of them are <a target="_blank"
@@ -192,19 +211,56 @@
                 <div class="square-example-1"></div>
             </div>
         </div>
-        
+
         <hr>
         <div class="component">
-            <h3>Test</h3>
-            <div class="meta-input">
-                <input type="text" name="" placeholder="Introduce tu email" id="">
-                <span class="input-btn">@gmail.com</span>
-            </div>
+            <h2>Headings</h2>
+            <pre><code class="language-html">&lt;h1>&lt;/h1></code></pre>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+        </div>
+        
+        <hr>
+
+        <div class="component">
+            <h1 class="txt-center">Form Elements</h1>
+            <h3>Default Text Input</h3>
+            <p>Just a text field :3.</p>
+            <pre><code class="language-html">&lt;input type="text" placeholder="Your stuff goes here"></code></pre>
+            <input type="text" placeholder="Your stuff ges here">
         </div>
 
+        <hr>
 
+        
     </section>
+    <!-- <div class="meta-input">
+                <input type="password" name="" placeholder="Password" id="pass-wrd">
+                <span class="input-btn" id="pass-trigger"><i class="fas fa-eye"></i></span>
+            </div> -->
 </body>
 <script src="https://cdn.jsdelivr.net/gh/PrismJS/prism@1.20.0/prism.min.js"></script>
+<script>
+    function seePassword() {
+        const trigger = document.querySelector('#pass-trigger');
+        const pass = document.querySelector('#pass-wrd');
+
+        trigger.addEventListener("click", () => {
+            if (pass.type === "password") {
+                pass.type = 'text';
+            } else {
+                pass.type = 'password'
+            }
+        })
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        seePassword()
+    });
+</script>
 
 </html>

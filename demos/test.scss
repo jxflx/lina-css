@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-// @import url('https://cdn.jsdelivr.net/gh/PrismJS/prism@1.20.0/themes/prism-tomorrow.min.css');
 @import url('https://unpkg.com/dracula-prism/css/dracula-prism.css');
 
 body {
@@ -61,20 +60,3 @@ $base-color: #f15bb5;
 
 // Experiment input-btn
 
-.meta-input {
-    display: flex;
-    align-items: center;
-
-    * {
-        height: 100%;
-    }
-
-    .input-btn {
-        background-color: #e9ecef;
-        height: 45px;
-
-        margin: auto;
-        padding: 1rem;
-
-    }
-}
