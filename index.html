@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/lina.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="website-lina.css">
     <title>Lina CSS</title>
 </head>
 
@@ -28,7 +28,7 @@
     </main>
     <section class="container txt-justify">
         <h1 class="txt-center">About</h1>
-        <p>Lina CSS is born from a need that all web developers have: to make web pages quickly. That is why I started
+        <p>Lina CSS is born from a need that all web developers have: make web pages quickly. That is why I started
             working on Lina CSS, in fact, I based on a library that I really liked (<a
                 href="https://drasite.com/flat-remix-css">Flat Remix CSS</a>). This library is
             simple, with nice components and easy to implement. Unlike other libraries, Lina CSS focuses on being as
@@ -41,6 +41,8 @@
             This project was born in the development of another project, so Lina CSS will be updated quite often because
             I still don't feel like it is completely finished.
         </p>
+        <h2>Recommendations</h2>
+        <p>For optimal results, you need a font family with at least these weights: 300, 400 and 700.</p>
         <hr>
     </section>
     <section class="container">
@@ -273,8 +275,29 @@
         <div class="component">
             <h2>Blockquote</h2>
             <p>Put your best phrases on a blockquote.</p>
-            <pre><code class="language-html">&lt;blockquote> &lt;/blockquote></code></pre>
-            <blockquote>"Sharing knowledge is the most fundamental act of friendship. Because it is a way you can give something without loosing something" <span class="autor-phrase">Richard Stallman</span></blockquote>
+            <pre><code class="language-html">&lt;blockquote> &lt;!-- Interesting phrase here --> &lt;span class="author-phrase">  &lt;!-- Author --> &lt;/span> &lt;/blockquote></code></pre>
+            <blockquote>"Sharing knowledge is the most fundamental act of friendship. Because it is a way you can give
+                something without loosing something" <span class="author-phrase">Richard Stallman</span></blockquote>
+        </div>
+
+        <hr>
+
+        <div class="component">
+            <h2>Checkbox</h2>
+            <pre><code class="language-html">
+&lt;label>
+    &lt;input type="checkbox" name="my-checkbox" checked> Select me
+&lt;/label>
+&lt;label>
+    &lt;input type="checkbox" name="my-checkbox"> Select me
+&lt;/label>
+            </code></pre>
+            <label>
+                <input type="checkbox" name="my-checkbox" checked> Select me
+            </label>
+            <label>
+                <input type="checkbox" name="my-checkbox"> Select me
+            </label>
         </div>
     </section>
 </body>

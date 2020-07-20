@@ -660,7 +660,7 @@ blockquote {
   font-style: italic;
 }
 
-blockquote .autor-phrase {
+blockquote .author-phrase {
   font-style: normal;
   font-weight: bold;
 }
@@ -695,7 +695,7 @@ textarea:focus, select:focus {
 
 input[type=checkbox], input[type=radio] {
   font-size: 1.3rem;
-  border: .1rem solid #000;
+  border: 1px solid #000;
   background: #FFF;
   cursor: pointer;
   height: 1.5rem;
@@ -718,14 +718,6 @@ input[type=checkbox]:checked, input[type=radio]:checked {
 label:hover > input[type=checkbox]:checked, label:hover > input[type=radio]:checked {
   -webkit-box-shadow: inset 0 0 0 0.243rem #FFF;
           box-shadow: inset 0 0 0 0.243rem #FFF;
-}
-
-label:hover > input[type=checkbox]:not(:checked), label:hover > input[type=radio]:not(:checked) {
-  background-color: #9B5DE5;
-}
-
-input[type=checkbox] {
-  border-radius: .243rem;
 }
 
 input[type=radio] {
