@@ -29,7 +29,6 @@ body {
 
 .demo {
     text-align: center;
-
     a {
         width: 50%;
         margin: 0.5rem auto;
@@ -58,6 +57,7 @@ $base-color: #f15bb5;
     }
 }
 
-// Experiment input-btn
-
-
+.my-button {
+    background-color: #D55D6F;
+    border-color: darken($color:#D55D6F, $amount:25%);
+}

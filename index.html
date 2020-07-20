@@ -331,15 +331,59 @@
         <hr>
 
         <div class="component">
-            <h2>Test</h2>
-            <label class="checktext">
-                <input type="radio" name="my-checktext" checked>
-                <span>09:00</span>
-            </label>
-            <label class="checktext">
-                <input type="radio" name="my-checktext" >
-                <span>09:00</span>
-            </label>
+            <h2 class="txt-center">Buttons</h2>
+            <p class="txt-center">This button classes works with links <code class="language-html">&lt;a>&lt;/a></code>
+                too.</p>
+            <b>Blue Button</b>
+            <pre><code class="language-html">&lt;button class="blue-button">Submit&lt;/button></code></pre>
+            <a class="blue-button">submit</a>
+
+            <hr>
+
+            <b>Green Button</b>
+            <pre><code class="language-html">&lt;button class="green-button">Submit&lt;/button></code></pre>
+            <a href="" class="green-button">submit</a>
+
+            <hr>
+
+            <b>Purple Button</b>
+            <pre><code class="language-html">&lt;button class="purple-button">Submit&lt;/button></code></pre>
+            <a href="" class="purple-button">submit</a>
+        </div>
+
+        <hr>
+
+        <div class="component">
+            <h2>Custom Buttons</h2>
+            <p>Create your own buttons!</p>
+            <pre><code class="language-html">&lt;!-- Html -->&NewLine; &lt;button class="btn my-button">Submit&lt;/button>&NewLine; &lt;!-- You must put the 'btn' class first, then your own class --></code></pre>
+            <pre><code class="language-css">
+/* CSS */
+.my-button {
+    background-color: #D55D6F;
+    border-color: #8e2535; /* Color 25% darker than the background color */
+}
+            </code></pre>
+            <a href="" class="btn my-button">Hello</a>
+        </div>
+
+        <hr>
+
+        <div class="component">
+            <h2>Switch Button</h2>
+            <p>A cool Switch :3</p>
+            <pre><code class="language-html">
+&lt;label class="onoffswitch">
+    &lt;input type="checkbox">
+    &lt;span>&lt;/span>
+&lt;/label>
+            </code></pre>
+            <div class="paper txt-center">
+                <label class="onoffswitch">
+                    <input type="checkbox" checked>
+                    <span></span>
+                </label>
+            </div>
         </div>
     </section>
 </body>

@@ -72,3 +72,8 @@ code {
   background-color: #f9b9df;
   margin: 1rem;
 }
+
+.my-button {
+  background-color: #D55D6F;
+  border-color: #8e2535;
+}
