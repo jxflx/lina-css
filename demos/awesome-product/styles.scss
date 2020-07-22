@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+// Colors
+$blue-gray: #9bc1bc;
+$orange: #ed6a5a;
+$yellow: #e2db50;
+$gray: #e6ebe0;
+$blue: #36c9c6;
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+}
+
+.site-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    .logo {
+        color: #9bc1bc;
+        font-weight: bold;
+        font-size: 2.2rem;
+        margin: 1rem;
+    }
+    .links {
+        a {
+            color: #333;
+            margin: 0.5rem 2rem;
+        }
+    }
+}
+
+.hero {
+    height: 90vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('bg-product.jpg');
+    background-position: center;
+    background-size: cover;
+    h1 {
+        color: #ed6a5a;
+        font-weight: bold;
+    }
+}
+
+.first-title {
+    margin-top: 3rem;
+    span {
+        font-weight: bold;
+        font-style: italic;
+        color: $orange;
+        font-size: 5.2rem;
+    }
+}
+
+.grid-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    margin: 2rem auto;
+    img {
+        width: calc(33.3% - 2rem);
+    }
+}
